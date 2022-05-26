@@ -16,9 +16,9 @@
 
 ### Semana 2 - Transformación de datos
 
-+ **L:** Álgebra / Numpy / Intro Pandas
++ **L:** Álgebra / Numpy / Intro Pandas  (Sesion 1 Outcomes 9:00-10:00)
 + **M:** Pandas Deepdive
-+ **X:** Data Cleaning      (Sesion 1 Outcomes 9:30-10:30)
++ **X:** Data Cleaning      
 + **J:** Data Cleaning 2
 + **V:** Proyecto Limpieza (Sharks)
 
@@ -35,9 +35,9 @@
 
 ### Semana 4 - Extracción de datos
 
-+ **L:** Estructura de la web / APIs
++ **L:** Estructura de la web / APIs     (Sesion 2 Outcomes 9:00-10:00)
 + **M:** RSS / Web scraping(bs4)
-+ **X:** Web scraping(selenium) / Automatización  (Sesion 2 Outcomes 9:30-10:30)
++ **X:** Web scraping(selenium) / Automatización  
 + **J:** Paralelización / Multiprocesos
 + **V:** Proyecto ETL
 
@@ -75,7 +75,8 @@
 
 ### Semana 8 - Más
 
-+ **L:** Time Series
++ **L:** Time Series        (Sesion 3 Outcomes 9:00-10:00)
 + **M:** Airflow / MLFlow
-+ **X:** Cloud             (Sesion 3 Outcomes 9:30-10:30)
++ **X:** Cloud            
+
 

@@ -1,4 +1,4 @@
-![process](https://github.com/YonatanRA/data_textbook/blob/master/images/process.jpg)
+![process](images/process.jpg)
 
 # Calendario de clase:
 

@@ -69,7 +69,7 @@
 + **M:** Evaluación / Ajuste 
 + **X:** Seleccion de caracteristicas
 + **J:** Aprendizaje no supervisado / Evaluación
-+ **V:** La panadería de Güelita / NLP
++ **V:** NLP
 
 
 

@@ -1,0 +1,59 @@
+import pandas as pd
+import streamlit as st
+import webbrowser
+
+# para iniciar el servidor ejecutar en la terminal "streamlit run <nombre de la app>"
+
+st.set_page_config(layout='centered', page_icon='images/ih.png', page_title='Demo para IH')
+
+st.title('DEMO STREAMLIT PARA IH') # titulo
+
+st.write('''
+# Ejemplo de como crear una app web con streamlit para IH
+## un poco mas pequeño
+### mas pequeño todavía
+''') # escribir un parrafo
+
+# añadir una imagen
+st.image('data:image/png;base64,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')
+
+
+# para añadir un boton con un enlace externo
+url = 'https://www.ironhack.com/en?utm_campaign=MAD_Spain_Madrid_Global_Search_Brand_EN&utm_source=google&utm_medium=cpc&utm_content=search-brand&utm_term=ironhack%20madrid&gclid=CjwKCAjwrNmWBhA4EiwAHbjEQH2Jk5GIClZTxrUGqBIismRC9suomZJPbeej70o0UCKznHoVPPGyNRoCymkQAvD_BwE'
+
+
+if st.button('Open browser'):
+    webbrowser.open_new_tab(url)
+
+st.info('Por petición de Jorge')
+
+nombre = st.form('template')
+
+n1 = nombre.text_input('Escribe tu nombre')
+
+submit = nombre.form_submit_button('Enviar')
+
+if submit:
+    st.write(f'# Bienvenido {n1}')
+
+l, c, r = st.columns(3)
+
+l.write('izquerda')
+l.write('hola')
+c.write('centro')
+c.write('Jorge')
+r.write('derecha')
+
+
+tabla = pd.DataFrame({'x':[1,2,3,4],'y':['hola','hi','good','cansinos']})
+
+st.write(tabla)
+
+lista = [1, 2, 3, 4]
+
+l.selectbox('elige', lista)
+r.slider('slider', 0, 5)
+
+st.write('Y para acabar')
+
+st.video('https://www.youtube.com/watch?v=Yem_iEHiyJ0')
